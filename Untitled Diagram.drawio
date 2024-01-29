@@ -1,9 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T19:32:27.615Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.0.2" etag="ZgANahbxRpBUqeRGi_dJ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T19:47:37.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_7KD-ICgmPgEitybtaWi" version="23.0.2" type="github">
   <diagram name="Page-1" id="Ydpoth9UsnyeeqmrrdpT">
-    <mxGraphModel>
+    <mxGraphModel dx="902" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-3" value="&amp;lt;CandidateSkills /&amp;gt;" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="750" height="590" as="geometry">
+            <mxRectangle x="40" y="40" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-4" value="Dumb Components" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-3">
+          <mxGeometry x="40" y="290" width="200" height="170" as="geometry">
+            <mxRectangle x="30" y="50" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-7" value="&amp;lt;SkillListing /&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-4">
+          <mxGeometry x="20" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-8" value="&amp;lt;SkillSearcher&amp;nbsp;/&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-4">
+          <mxGeometry x="20" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-9" value="&amp;lt;SkillDeleteListing /&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-4">
+          <mxGeometry x="20" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-10" value="State Manager" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-3">
+          <mxGeometry x="470" y="280" width="270" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-19" value="Query Key:&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;[&quot;candidate-skills&quot;, candidateId]&lt;/span&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-10">
+          <mxGeometry x="20" y="40" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-11" value="&amp;lt;Container /&amp;gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-3">
+          <mxGeometry x="260" y="50" width="206" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IEZz8bdBtgsBV2-rqPaP-3" source="IEZz8bdBtgsBV2-rqPaP-11" target="IEZz8bdBtgsBV2-rqPaP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="150" as="sourcePoint" />
+            <mxPoint x="300" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.673;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IEZz8bdBtgsBV2-rqPaP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="130" as="sourcePoint" />
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
