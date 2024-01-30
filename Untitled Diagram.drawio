@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T13:15:35.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cDHeNdlqpv6pRxk_FvjH" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T16:12:22.739Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YVDssmK2d6saLVoyn9UX" version="23.0.2" type="github">
   <diagram name="Page-1" id="Ydpoth9UsnyeeqmrrdpT">
     <mxGraphModel dx="2630" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         </mxCell>
         <mxCell id="IEZz8bdBtgsBV2-rqPaP-4" value="Dumb Components" style="swimlane;whiteSpace=wrap;html=1;align=center;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="-670" y="600" width="340" height="320" as="geometry">
-            <mxRectangle x="30" y="50" width="110" height="30" as="alternateBounds" />
+            <mxRectangle x="-670" y="600" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IEZz8bdBtgsBV2-rqPaP-63" value="&lt;pre style=&quot;margin: 0px 0px 0px 8px; font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/pre&gt;&lt;pre style=&quot;margin: 0px 0px 0px 8px; font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;&amp;lt;SkillsCombobox /&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/pre&gt;&lt;hr&gt;&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;pre style=&quot;margin: 0px 0px 0px 8px; font-size: 8px;&quot;&gt;+ options: Array&amp;lt;{ label: string; value: string; }&amp;gt;&lt;br&gt;+ onSearch: (term: string) =&amp;gt; Promise&amp;lt;Array&amp;lt;CandidateSkill&amp;gt;&amp;gt;&lt;br&gt;+ onConfirm: () =&amp;gt; void&lt;/pre&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontSize=9;" vertex="1" parent="IEZz8bdBtgsBV2-rqPaP-4">
@@ -55,8 +55,10 @@
         <mxCell id="IEZz8bdBtgsBV2-rqPaP-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IEZz8bdBtgsBV2-rqPaP-10" target="IEZz8bdBtgsBV2-rqPaP-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IEZz8bdBtgsBV2-rqPaP-10" value="Hooks" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-255" y="600" width="580" height="250" as="geometry" />
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-10" value="Hooks" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="-255" y="600" width="80" height="30" as="geometry">
+            <mxRectangle x="-255" y="600" width="580" height="250" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IEZz8bdBtgsBV2-rqPaP-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IEZz8bdBtgsBV2-rqPaP-10">
           <mxGeometry relative="1" as="geometry">
@@ -103,8 +105,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IEZz8bdBtgsBV2-rqPaP-100" value="Hocs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="600" width="320" height="250" as="geometry" />
+        <mxCell id="IEZz8bdBtgsBV2-rqPaP-100" value="Hocs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="370" y="600" width="70" height="30" as="geometry">
+            <mxRectangle x="370" y="600" width="320" height="250" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IEZz8bdBtgsBV2-rqPaP-101" value="&lt;pre style=&quot;font-size: 8px;&quot;&gt;withCurrentUser({ selector }): WrappedComponent&lt;/pre&gt;&lt;pre style=&quot;font-size: 8px;&quot;&gt;+ selector: (currentUser) =&amp;gt; any&lt;/pre&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="380" y="640" width="300" height="60" as="geometry" />
